@@ -21,6 +21,7 @@ const Cart = (props) => {
             <p>Tax: ${tax}</p>
             <h4>Grand Total: ${grandTotal.toFixed(2)}</h4>
             <button onClick={clearCart}>Clear Cart</button>
+            {children}
         </div>
     );
 };
