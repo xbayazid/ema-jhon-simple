@@ -20,7 +20,7 @@ const Cart = (props) => {
             <p>Total Shipping Charge: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <h4>Grand Total: ${grandTotal.toFixed(2)}</h4>
-            <button onClick={clearCart}>Clear Cart</button>
+            {/* <button className='btn' onClick={clearCart}>Clear Cart</button> */}
             {children}
         </div>
     );
